@@ -1,0 +1,12 @@
+/target
+
+.env
+.env.*
+!.env.exemple
+.streamlit/secrets.toml
+
+.venv/
+__pycache__/
+*.pyc
+
+/exports

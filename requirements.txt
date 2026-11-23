@@ -1,0 +1,6 @@
+streamlit>=1.50,<2
+plotly>=6,<7
+pandas>=2.2,<4
+requests>=2.32,<3
+python-dotenv>=1.0,<2
+pygame-ce>=2.5,<3
