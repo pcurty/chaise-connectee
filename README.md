@@ -6,6 +6,24 @@ Ce projet simule une chaise connectée équipée de trois capteurs : **présence
 
 Il n'y a pas de vraie chaise. Un programme en Rust imite les capteurs, ajoute de petites erreurs de mesure comme sur du vrai matériel, puis envoie les données sur Internet vers une base de données. Une application permet ensuite de piloter la simulation et de voir les données en direct.
 
+## Aperçu de l'application
+
+### Contrôle
+
+![Page Contrôle : réglage des données et état de la chaise](captures/controle.png)
+
+### Graphiques
+
+![Page Graphiques : historique de la température, du poids et de l'occupation](captures/graphiques.png)
+
+### Données
+
+![Page Données : tableau des mesures enregistrées](captures/donnees.png)
+
+### Communications
+
+![Page Communications : schéma et journal des échanges en direct](captures/communications.png)
+
 ## Ce que fait le projet
 
 - **Acquisition :** le programme lit les trois capteurs simulés à intervalle régulier.
